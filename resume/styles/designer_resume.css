@@ -1,0 +1,384 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: black;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+#main_container {
+  /* height: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  background-color: rgb(54, 52, 52);
+  padding: 30px;
+  margin: 80px;
+
+}
+
+#section1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 100%;
+  padding: 20px;
+}
+
+
+#box1 {
+
+  flex: 60%;
+}
+
+.img-container {
+  float: left;
+
+}
+
+
+.headliners {
+  display: inline-block;
+  padding-left: 50px;
+
+}
+
+.h1 {
+  color: whitesmoke;
+  text-align: left;
+
+}
+
+.h2 {
+
+  color: rgb(29, 116, 197);
+  text-align: left;
+
+}
+
+
+#box2 {
+
+  flex: 40%;
+  justify-content: evenly;
+}
+
+.biz_contact {
+  color: whitesmoke;
+
+}
+
+.list1 {
+  float: left;
+  text-align: right;
+  padding-right: 10px;
+}
+
+
+.list2 {
+  text-align: left;
+}
+
+.list2 li a {
+  color: rgb(29, 116, 197);
+}
+
+.biz2_contract {
+  color: grey;
+}
+
+#box2 ul {
+  list-style-type: none;
+
+}
+
+
+#box3 {
+  color: whitesmoke;
+  flex: 100%;
+  text-align: left;
+}
+
+#line {
+  border: 2px;
+  color: #ccc;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+
+#section2 {
+  /*background-color: rgba(0, 0, 255, 0.394); */
+  flex: 75%;
+  min-height: 70%;
+  padding-right:10px;
+ 
+}
+
+#section2 hr {
+  border: 1px dotted grey;
+}
+
+#section2 p {
+  color: grey;
+  text-align: left;
+}
+
+.job_entries {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.job_section_title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.job_entries_headline_to_the_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: grey;
+
+}
+
+.h3_job_entries { 
+  color: whitesmoke;
+
+}
+
+.dates_rightsided {
+  color: grey;
+}
+
+.date-range {
+  color: grey;
+  margin-right: auto;
+}
+
+
+ .h3_job_name { 
+    color:grey;
+    text-align:left;
+}
+
+.job_description {
+    margin-left: 35px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+#section3 {
+  /* background-color: rgba(0, 0, 255, 0.657); */
+  flex: 25%;
+  padding-left: 10px;
+  
+}
+
+
+#section3 p {
+  color: grey;
+  text-align: left;
+}
+
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box
+}
+
+/* Container for skill bars */
+.programming_container {
+  width: 100%;
+  /* Full width  */
+  background-color: grey;
+  /*Grey background*/
+
+}
+
+
+.skills {
+  text-align: right;
+  /* Right-align text */
+  padding-top: 10px;
+  /* Add top padding */
+  padding-bottom: 10px;
+  /* Add bottom padding */
+  width: 100%;
+  color: white;
+  /* White text color */
+  background-color: white;
+}
+/* pale blue */
+.wordpress {
+  width: 90%;
+  background-color: hsl(209, 95%, 34%);
+}
+
+/* light blue */
+.php {
+  width: 80%;
+  background-color: #2196F3;
+}
+
+/* skyblue */
+.html {
+  width: 93%;
+  background-color: #04AA6D;
+}
+
+/* green */
+.css {
+  width: 80%;
+  background-color: #cac713;
+}
+
+/* yellow */
+.mysql {
+  width: 70%;
+  background-color: #f44336;
+}
+
+/* red */
+
+
+
+/* overall container for both Graphic Skills Lists */
+.graphic_skills_container {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  color: whitesmoke;
+
+}
+
+h3 {
+  color: whitesmoke;
+
+}
+
+
+
+.square_photoshop {
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  background-color: hsl(209, 95%, 34%);
+}
+
+.square_illustrator {
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  background-color: #2196F3;
+}
+
+.square_indesign {
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  background-color: #04AA6D;
+}
+
+.square_corel {
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  background-color: #cac713;
+}
+
+.square_3d {
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  background-color: red;
+}
+
+
+
+.adobe_photoshop,
+.adobe_illustrator,
+.adobe_indesign,
+.corel_draw,
+.max_3d {
+  color: grey;
+}
+
+/* Language Skills List */
+
+.language_skills_container {
+  display: flex;
+  /* Arranges circles in a row */
+
+  justify-content: space-evenly;
+  /* Centers the circles horizontally */
+  color: whitesmoke;
+}
+
+/* Define colors for each circle */
+
+
+.greyblue_circle {
+  background-color: #3498db;
+  width: 20px;
+  /* Sets the width of the circle */
+  height: 20px;
+  /* Sets the height (must match width for a perfect circle) */
+  border-radius: 50%;
+  /* Makes the square div a circle */
+
+}
+
+.green_circle {
+  background-color: #2ecc71;
+  width: 20px;
+  /* Sets the width of the circle */
+  height: 20px;
+  /* Sets the height (must match width for a perfect circle) */
+  border-radius: 50%;
+  /* Makes the square div a circle */
+
+}
+
+.yellow_circle {
+  background-color: #f1c40f;
+  width: 20px;
+  /* Sets the width of the circle */
+  height: 20px;
+  /* Sets the height (must match width for a perfect circle) */
+  border-radius: 50%;
+  /* Makes the square div a circle */
+}
+
+.black_circle {
+  background-color: #000000;
+  width: 20px;
+  /* Sets the width of the circle */
+  height: 20px;
+  /* Sets the height (must match width for a perfect circle) */
+  border-radius: 50%;
+  /* Makes the square div a circle */
+  border: 1px solid white;
+}
+
+
+/*  Mobile Styling --------------------------------------- */
+
+@media screen and (max-width: 600px) {
+
+  #section2,
+  #section3,
+  #box1,
+  #box2 {
+    flex: 100%;
+  }
+}
